@@ -59,8 +59,10 @@ menu
 - * Cancel his appointments:by viewing his appointments and removing them
 from the system 
 
-- * change his password _**if needs be, by going to this option and
+- * change his password:if needs be, by going to this option and
 feeling in the necessary details.
 
  - * And log out
-
+ 
+ find here bellow the UML class diagram of my domain
+ <img src="src/ClassDiagram1.jpg"> 

@@ -1,10 +1,8 @@
-package com.john.factory;
+package com.john.factory.people;
 
-import com.john.domain.Employee;
-import com.john.domain.User;
+import com.john.domain.People.User;
+import com.john.factory.people.UserFactory;
 import org.junit.Assert;
-
-import static org.junit.Assert.*;
 
 public class UserFactoryTest {
     public void getUser() {

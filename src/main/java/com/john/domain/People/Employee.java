@@ -1,6 +1,4 @@
-package com.john.domain;
-
-import java.util.Set;
+package com.john.domain.People;
 
 public class Employee {
     private String employeeId, employeeFirstname, employeeLastname;
@@ -58,8 +56,8 @@ public class Employee {
             return this;
         }
 
-        public com.john.domain.Employee build() {
-            return new com.john.domain.Employee(this);
+        public Employee build() {
+            return new Employee(this);
         }
 
     }

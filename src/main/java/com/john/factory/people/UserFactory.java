@@ -1,13 +1,11 @@
-package com.john.factory;
+package com.john.factory.people;
 
-import com.john.domain.Employee;
 import com.john.util.Misc;
 
 
-    import com.john.domain.User;
-import com.john.util.Misc;
+    import com.john.domain.People.User;
 
-    public class UserFactory {
+public class UserFactory {
 
         public static User getUser(String userId, String userTitle) {
             return new User.Builder()

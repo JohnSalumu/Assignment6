@@ -1,4 +1,4 @@
-package com.john.domain;
+package com.john.domain.People;
 
 public class User {
 
@@ -46,8 +46,8 @@ public class User {
 
 
 
-        public com.john.domain.User build() {
-            return new com.john.domain.User(this);
+        public User build() {
+            return new User(this);
         }
 
     }

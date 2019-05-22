@@ -1,9 +1,8 @@
-package com.john.factory;
+package com.john.factory.people;
 
-import com.john.domain.Employee;
+import com.john.domain.People.Employee;
+import com.john.factory.people.EmployeeFactory;
 import org.junit.Assert;
-
-import static org.junit.Assert.*;
 
 public class EmployeeFactoryTest {
 

@@ -1,7 +1,7 @@
-package com.john.factory;
+package com.john.factory.people;
 
 
-import com.john.domain.Employee;
+import com.john.domain.People.Employee;
 import com.john.util.Misc;
 
 public class EmployeeFactory {

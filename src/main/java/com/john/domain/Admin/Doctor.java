@@ -1,4 +1,6 @@
-package com.john.domain;
+package com.john.domain.Admin;
+
+import com.john.domain.People.User;
 
 public class Doctor {
 
@@ -13,6 +15,10 @@ public class Doctor {
 
        // this.licenceNo = builder.licenceNo;
 
+    }
+
+    public static String getDoctorId() {
+        return getDoctorId();
     }
 
     public String doctorId() {
@@ -46,8 +52,8 @@ public class Doctor {
 
 
 
-        public com.john.domain.Doctor build() {
-            return new com.john.domain.Doctor(this);
+        public Doctor build() {
+            return new Doctor(this);
         }
 
     }
